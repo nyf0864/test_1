@@ -6,7 +6,9 @@
   </listeners>
   <test name="Test">
     <classes>
-      <class name="com.selenium.screenShot.TestLoginScreenShot"/>
+      <class name="com.selenium.screenShot.TestLoginScreenShot">
+      <methods name="test"></methods>
+      </class>
     </classes>
   </test> <!-- Test -->  
 

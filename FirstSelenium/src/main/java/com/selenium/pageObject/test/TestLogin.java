@@ -25,6 +25,7 @@ public class TestLogin extends TestBase {
 		loginPage.submit_click();
 //        System.out.println(driver.getPageSource());
 		loginPage.check_login_result(expectedResult);
+		
 		Thread.sleep(3000);
 
 	}

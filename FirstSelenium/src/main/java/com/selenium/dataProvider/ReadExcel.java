@@ -57,7 +57,7 @@ public class ReadExcel {
 		return dataObject;
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		Object[][] data=ReadExcel.readDataFromExcel("ecshop.xlsx", 0);
 		for (int i = 0; i < data.length; i++) {
 			for (int k = 0; k < data[data.length - 1].length; k++) {
@@ -65,6 +65,6 @@ public class ReadExcel {
 			}
 		}
 		
-	}
+	}*/
 
 }

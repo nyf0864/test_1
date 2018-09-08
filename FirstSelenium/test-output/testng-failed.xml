@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.selenium.reRunTest.ReRunTestListener"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.screenShot.TestLoginScreenShot">
+      <class name="com.selenium.pageObject.test.TestLogin">
         <methods>
-          <include name="test"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
+          <include name="test"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.selenium.screenShot.TestLoginScreenShot -->
+      </class> <!-- com.selenium.pageObject.test.TestLogin -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
